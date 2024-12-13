@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.containerbox{
+    display: flex;
+}
+.containerbox .text1{
+    margin-left: 8rem;
+    margin-top: 5rem;
+    height: 200px;
+    width: 442px;
+}
+.containerbox .text1 h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+.containerbox .text1 p{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 31px;
+    width: 378px;
+    color: #cf1d1d;
+}
+.containerbox .text1 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    background-color: rgb(151, 78, 247);
+    color: white;
+    border: none;   
+    border-radius: 40px; 
+    cursor: pointer;
+}
+.containerbox .text1 .icon1{
+    margin-top: 35px;
+    font-size: 24px;
+}
+.containerbox .text1 .icon1 i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.containerbox .text1 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(151, 78, 247);
+    border: 1px solid rgb(151, 78, 247);
+}
+.image1 img{
+    width: 700px;
+    height: 700px;
+    border-radius: 25px;
+}
+
+/* Container 2 */
+.container2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 0 100px;
+}
+.container2 .containerbox1{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 80px;
+}
+.container2 .containerbox1 .text11{
+    width: 500px;
+}
+.containerbox1 .text11 h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: "Noto Serif", serif;
+}
+.containerbox1 .text11 .col1{
+    color: red;
+    
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.col2{
+    margin: 10px 0px;
+    color: #1e07f5;
+}
+.col3{
+    margin: 10px 0px;
+    color: #1800ec;
+}
+.text12{
+    margin: 80px 40px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 0, 0);
+}
+.text12 p{
+    margin-left: 14px;
+    width: 567px;
+    margin-bottom: 20px;
+    border-top: 4px solid rgb(133, 245, 6);
+}
+
+/* Container 3 */
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px;
+    /* max-width: 1200px; */
+    width: 100%;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img12 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cool12{
+    height: 462px;
+}
+.column2{
+    height: 215px;
+}
+/* container 4 */
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 100px;
+    text-align: center;
+}
+
+/* container 5 */
+.banner33 img{
+    height: 500px;
+    width: 100%;
+}
+.text33 h1{
+    position: relative;
+    top:50px
+}
+
+.container5 {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    margin: auto;
+}
+
+.banner33 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text33 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ghostwhite;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.text33 button{
+    margin-top: 80px;
+    height: 40px;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 27px;
+    width: 219px;
+}
+/* container 6 */
+.banner44 img{
+    height: 150px;
+    width: 250px;
+    margin: 40px;
+}
+/* container 7 */
+.container7{
+    text-align: center;
+}
+.banner55 h1{
+    font-size: 50px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.banner55 input{
+    height: 40px;
+    width: 300px;
+    border-radius: 12px;
+    margin: 8px;
+    text-align: center;
+    border-color: rgb(226, 226, 16);
+}
+.banner55 button{
+    height: 40px;
+    width: 129px;
+    border-radius: 27px;
+    margin: 20px;
+    color: white;
+    color: rgb(0, 0, 0);
+}
+/* container 8 */
+.footer22{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.footer22 .logo22{
+    display: flex;
+}
+.footer22 .logo22 img{
+    height: 100px;
+    width: 100px;
+}
+.footer22 .logo22 p{
+    margin-top: 40px;
+    margin-left: 260px;
+}
+.footer22 .icon22{
+    margin-top: 35px;
+}
+.footer22 .icon22 i{
+    padding-right: 20px;
+    font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        /* width: 100%; */
+        flex-wrap: wrap;
+    }
+    .containerbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerbox1{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+    .container4{
+        display: flex;
+        flex-direction: column;
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+    }
+    .container7{        
+        display: flex;
+        flex-direction: column;
+    }
+    .footer22{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .containerbox .image1 img{
+        width: 100%;
+        height: 50%;
+        border-radius: revert;
+    }
+
+    .text1{
+        text-align: center;
+        margin-left: 10px;
+        width: 10px;
+    }
+}
